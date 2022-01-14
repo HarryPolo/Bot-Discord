@@ -1,0 +1,4 @@
+	1.	module.exports = {
+	2.	    run: message => message.channel.send('bonjour à toi'),
+	3.	    name: 'bjr'
+	4.	}
