@@ -1,4 +1,6 @@
 module.exports = {
-	    run: message => message.channel.send('pong !'),
+	    run: async (message) => {
+		    message.channel.send({content: 'Pong !'})
+	    },
 	    name: 'ping'
 	}
