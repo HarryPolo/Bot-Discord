@@ -1,7 +1,7 @@
 const Discord = require('discord.js'),
-    client = new Discord.Client({
-        fetchAllMembers: true
-    }),
+const client = new Discord.Client({ 
+intents: 32767,
+ })
     config = require('./config.json'),
     fs = require('fs')
  
